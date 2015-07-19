@@ -1,0 +1,25 @@
+{
+  "name" : "lambda-reddit-top-stories",
+  "version" : "0.0.0",
+  "description" : "AWS Lambda function for getting reddit's 'hot' stories.",
+  "private" : "true",
+  "author" : {
+    "name" : "Thomas Leen",
+    "email" : "tl@thomasleen.com",
+    "url" : "http://www.thomasleen.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/tleen/lambda-reddit-top-stories"
+  },
+  "dependencies" : {
+    "lodash" : "3.10.0",
+    "request" : "2.58.0"
+  },
+  "devDependencies" : {
+    "aws-sdk" : "2.1.38",
+    "grunt" : "0.4.5",
+    "grunt-aws-lambda" : "0.7.0",
+    "npm" : "2.13.0"
+  }
+}
